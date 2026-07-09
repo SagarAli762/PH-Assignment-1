@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 70px auto;
+  max-width: 1200px;
+}
+.section-content {
+}
+.section-title {
+}
+.section-desc {
+  font-size:;
+  font-weight:;
+  font-family:;
+}
+.common-btn {
+  background:;
+  color:;
+  padding:;
+}
