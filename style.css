@@ -16,8 +16,36 @@
   font-weight:;
   font-family:;
 }
-.common-btn {
-  background:;
-  color:;
-  padding:;
+.reg-btn {
+  background: #1d4ed8;
+  color: white;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+.text-primary {
+  color: #575757;
+}
+/*navbar start*/
+.navbar {
+  margin-top: 30px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.nav-items li {
+  list-style: none;
+}
+.nav-items li a {
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
 }
