@@ -94,6 +94,9 @@
   border: 1px solid #e5e7eb;
   border-radius: 12px;
 }
+.speaker-card img {
+  border-radius: 12px 12px 0 0;
+}
 .speaker-card-content {
   display: grid;
   gap: 8px;
@@ -125,4 +128,79 @@
 .pricing-subtitle {
   font-size: 18px;
   margin-bottom: 50px;
+}
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.pricing-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 32px;
+}
+.pricinig-plan-name {
+  color: #888888;
+  font-size: 13px;
+  font-weight: 600;
+}
+.price {
+  font-size: 44px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+.person {
+  font-size: 13px;
+}
+.pricing-card hr {
+  background-color: #e5e7eb;
+  height: 1px;
+  margin: 25px 0;
+}
+.pricing-card-features ul {
+  display: grid;
+  gap: 12px;
+  padding-left: 14px;
+}
+.pricing-card-features ul li {
+  font-size: 14px;
+  color: #333333;
+}
+.pricing-card-features ul li::marker {
+  color: #2563eb;
+}
+.pricing-btn {
+  margin-top: 25px;
+  background: #ffffff;
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: 600;
+  width: 100%;
+  padding: 13px 0;
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+}
+.card-pro {
+  background-color: #0d1b2a;
+}
+.card-pro .pricing-plan-name {
+  color: #93c5fd;
+}
+.card-pro .price {
+  color: #ffffff;
+}
+.card-pro .price-person {
+  color: #ffffffcc;
+}
+
+.card-pro .pricing-card-features li {
+  color: #ffffffcc;
+}
+.card-pro .pricing-btn {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+.card-team .pricing-btn {
+  border: 1px solid #0d1b2a;
+  color: #0d1b2a;
 }
