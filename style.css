@@ -5,7 +5,7 @@
   font-family: "Inter", sans-serif;
 }
 .container {
-  margin: 70px auto;
+  margin: 96px auto;
   max-width: 1279px;
 }
 
@@ -55,7 +55,7 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-  margin-top: -40px !important;
+  margin-top: -66px !important;
 }
 .hero-contnent-top {
   text-align: center;
@@ -66,11 +66,14 @@
   color: #ffffff;
   font-size: 80px;
   font-weight: bold;
+  padding-bottom: 20px;
 }
 .hero-p {
   color: #ffffffe6;
   font-size: 22px;
-  padding: 1rem 12rem;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.4;
 }
 .hero-contnent-bottom {
   position: relative;
@@ -205,37 +208,6 @@
   border: 1px solid #0d1b2a;
   color: #0d1b2a;
 }
-/* footer section start */
-footer {
-  background-color: #0d1b2a;
-  padding: 36px 60px 32px 40px;
-}
-.footer-top {
-  display: flex;
-  justify-content: space-between;
-}
-.social-media {
-  display: flex;
-  gap: 16px;
-}
-.social-media i {
-  font-size: 36px;
-  color: #1d4ed8;
-}
-footer hr {
-  background-color: #e5e7eb;
-  height: 1px;
-  margin: 36px 0;
-}
-.footer-bottom {
-  display: flex;
-  justify-content: space-between;
-  color: #ffffff66;
-}
-.footer-bottom-right {
-  display: flex;
-  gap: 20px;
-}
 /* sponsors section start */
 .sponsors-header {
   text-align: center;
@@ -268,4 +240,42 @@ footer hr {
 }
 .company-name {
   font-size: 20px;
+}
+
+/* footer section start */
+footer {
+  background-color: #0d1b2a;
+  padding: 26px 45px 22px 30px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #888888;
+}
+.social-media {
+  display: flex;
+  gap: 20px;
+}
+.social-media i {
+  font-size: 32px;
+  color: #888888;
+}
+footer hr {
+  background-color: #e5e7eb;
+  height: 1px;
+  margin: 36px 0;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff66;
+}
+.footer-bottom-right {
+  display: flex;
+  gap: 20px;
 }
